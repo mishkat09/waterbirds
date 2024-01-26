@@ -1,183 +1,201 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Water Birds Limited | Full Service Water Company</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" data-theme="light">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="https://waterbirdsbd.com/frontend/assets/img/waterbird/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <style>
-        body{
-            color: white;
-        }
-        /*header ---------*/
-   .header{
-            background-color: blue;
-           height: 30px;
-           display: flex;
-           justify-content:space-between;
-            align-items: center;
-        
-        a{
-          
-          border: none;
-          color: white;
-          text-decoration-color:none;
-
-        }  
-       
-       .header-top-left{
-          text-align:justify;
-           font-size: 12px;
-           font-weight: 600;
-           text-decoration: none;
-            
-        }
-   
-
-     
-        .header-top-right{
-            text-align:right;
-           font-size: 12px;
-           font-weight: 600;
-
-        }
-        
- .header-top-right>ul{
-    display: flex;
-}
-  li {
-    list-style: none;
-    margin-right: 20px;
-    text-decoration: none;
-
- }
-}
-/*logo*/
-/*.header-sticky{
-    padding: 20px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-    .logo{
-        max-width: 100px ;
-        height: auto;
-        justify-content: left;
-        align-items: flex-end;
-    }
-*/
-.header-sticky {
-    background-color:white;
-    padding: 4px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
-    padding:2px;
-    margin: 0px ;
-    
-}
-
-.main-menu nav >ul>li>a{
-    display: inline-block;
-}
-.menu-position {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.menu-position li :active{
-    margin-right: 20px;
-    position: flex;
-}
-
-.menu-position a :hover{
-    text-decoration: none;
-    display: flex;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-.menu-position a:hover {
-    color:blue;
-
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Birds Limited</title>
 
 
+      <!-- Favicon -->
+      <link rel="shortcut icon" type="image/x-icon" href="https://waterbirdsbd.com/frontend/assets/img/waterbird/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
- 
- 
-   
-</style>  
+<body>
+    <header>
+        <!-- Top -->
+        <div
+            class="bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col xl:flex-row justify-around items-center py-2 px-2">
+            <!-- First Part -->
+            <div class="flex flex-col lg:flex-row items-center gap-3 my-2  ">
+                <div class="text-white flex items-center gap-1">
+                    <i class="fa-regular fa-envelope"> </i>
+                    <p>info@waterbirdsbd.com</p>
+                </div>
+                <div class="text-white flex items-center gap-1">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p> +880 1810 033 314</p>
+                </div>
+                <div class="text-white flex md:items-center   gap-1 md:gap-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="text-center"> House B/113, Mosque Road, Mohakhali DOHS, Dhaka-1206</p>
+                </div>
+            </div>
 
+            <!-- Second Part -->
+            <div class="flex flex-col xl:flex-row justify-between items-center gap-2 my-2">
+                <div>
+                    <button
+                        class="btn btn-sm border-white hover:text-blue-600 text-white outline-none bg-transparent hover:bg-transparent">Career</button>
+                    <button
+                        class="btn btn-sm border-white hover:text-blue-600 text-white outline-none bg-transparent hover:bg-transparent">Support</button>
+                    <button
+                        class="btn btn-sm border-white hover:text-blue-600 text-white outline-none bg-transparent hover:bg-transparent">FAQ</button>
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                    <div
+                        class="w-8 h-8 rounded-full border-2 flex items-center justify-center bg-white border-[#11b0e6]">
+                        <i class="fa-brands fa-facebook-f text-[#11b0e6] "></i>
+                    </div>
+                    <div
+                        class="w-8 h-8 rounded-full border-2 flex items-center justify-center bg-white border-[#11b0e6] ">
+                        <i class="fa-brands fa-instagram text-[#11b0e6] "></i>
+                    </div>
+                    <div
+                        class="w-8 h-8 rounded-full border-2 flex items-center justify-center bg-white border-[#11b0e6]">
+                        <i class="fa-brands fa-youtube text-[#11b0e6] "></i>
+                    </div>
+                </div>
 
-    </head>
-    
-
-    <!----header area start -->
-    <div class="header">
-    <div class="header-top-left">
-        <p>
-            <a href="mailto:info@waterbirdsbd.com">info@waterbirdsbd.com</a> |
-            <a href="tel:+8801810033314">+880 1810 033 314</a> |
-            <a href="https://goo.gl/maps/mVzawgWQbBDK43N27" target="_blank">House B/113, Mosque Road, Mohakhali DOHS, Dhaka-1206</a>
-        </p>
-    </div>
-    <div class="header-top-right">
-        <ul>
-            <li><a href="https://waterbirdsbd.com/contact">Career</a></li>
-            <li><a href="https://waterbirdsbd.com/contact">Support</a></li>
-            <li><a href="https://waterbirdsbd.com/contact">FAQ</a></li>
-            <li><a href="https://www.facebook.com/waterbirdsbd" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-            <li><a href="#"><i class="zmdi zmdi-youtube"></i></a></li>
-        </ul>
-    </div>
-    </div>
-    <!--logo-->
-    <div class="header-sticky ">
-        <div class="logo">
-            <a href="https://waterbirdsbd.com"><img src="https://waterbirdsbd.com/frontend/assets/img/waterbird/wbbd250.png" alt="Waterbirds Logo" /></a>  
+            </div>
         </div>
-        <div class="main-menu">
-            <nav>
-                <ul class="manu-position">
-                    <li><a href="https://waterbirdsbd.com">Home</a></li>
-                    <li><a href="https://waterbirdsbd.com/about">About Us</a></li>
-                    <li><a href="https://waterbirdsbd.com/all-projects">Projects <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-content">
-                            <li><a href="https://waterbirdsbd.com/completed-projects">Completed Projects</a></li>
-                            <li><a href="https://waterbirdsbd.com/ongoing-projects">Ongoing Projects</a></li>
-                            <li><a href="https://waterbirdsbd.com/upcoming-projects">Upcoming Projects</a></li>
+
+        <!-- Navbar -->
+        <nav>
+            <div>
+                <div class=" bg-base-100 lg:flex lg:justify-center lg:items-center lg:my-4">
+                    <div class="">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
+                                <li><a href="https://waterbirdsbd.com">Home</a></li>
+                                <li><a href="https://waterbirdsbd.com/about">About Us</a></li>
+                                <li>
+                                    <a href="https://waterbirdsbd.com/all-projects">Projects </a>
+                                    <ul class="p-2">
+                                        <li class="border-b-2 border-black"><a href="https://waterbirdsbd.com/completed-projects">Completed Projects</a></li>
+                                        <li class="border-b-2 border-black"><a href="https://waterbirdsbd.com/ongoing-projects" >Ongoing Projects</a></li>
+                                        <li class="border-b-2 border-black"><a  href="https://waterbirdsbd.com/upcoming-projects">Upcoming Projects</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>Products</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a href="https://waterbirdsbd.com/contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src="https://waterbirdsbd.com/frontend/assets/img/waterbird/wbbd250.png" alt=""
+                            class="hidden lg:block">
+                    </div>
+                    <div class=" hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-lg font-bold">
+                            <li><a href="https://waterbirdsbd.com">Home</a></li>
+                            <li><a href="https://waterbirdsbd.com/about">About Us</a></li>
+                            <li>
+                                <details>
+                                    <summary>Projects</summary>
+                                    <ul class="p-2">
+                                        <li class="border-b-2 border-black"><a>Completed Projects</a></li>
+                                        <li class="border-b-2 border-black"><a>Ongoing Projects</a></li>
+                                        <li class="border-b-2 border-black"><a>Upcoming Projects</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li><a>Products</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
                         </ul>
-                    </li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="https://waterbirdsbd.com/contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</div>
+                    </div>
+                    <div>
+                        <!-- Something -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="https://waterbirdsbd.com/user/project/project_630f51c078f7f5.031247131.jpg" width="100%" height="auto" alt="Project Image"/>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+       <!--<div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                    </path>
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(147,215,175,0)"></use>
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(147,215,175,0)"></use>
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(147,215,175,0)"></use>
+                    <use xlink:href="#gentle-wave" x="100" y="0" fill="#e9f7ef"></use>
+                </g>
+            </svg>
+            <div>
+                <div class=" inset-x-0 top-0 h-20 pointer-events-none">
+                    <svg class="absolute inset-x-0 bottom-0 h-full w-full" viewBox="0 0 1440 320"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#e9f7ef" fill-opacity="1"
+                            d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,186.7C672,203,768,181,864,144C960,107,1056,53,1152,48C1248,43,1344,85,1392,106.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                    </svg>
+
+                </div>
+
+            </div> ---->
+        
+
+
+
+    </main>
+
+</body>
+
 </html>
- </body>
